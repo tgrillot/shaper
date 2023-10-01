@@ -32,8 +32,9 @@ const App = () => {
   return (
     <>
       <div className="w-3/4 h-screen m-auto p-3 bg-slate-300">
-        <header className="text-4xl font-bold mb-5">
-          React Shaper
+        <header className="mb-5">
+          <h1 className="text-4xl font-bold">React Shaper</h1>
+          <a className="text-cyan-950 underline hover:text-cyan-700" target="_blank" href="https://github.com/tgrillot/shaper">Github</a>
         </header>
         <div className="flex flex-row gap-4 mb-5">
           <CSVInput onFileChange={(e) => handleFileChange(e)} />
